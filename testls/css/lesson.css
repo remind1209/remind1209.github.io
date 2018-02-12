@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pos {
+  position: relative;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fix {
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+strong,
+b {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #ff0000;
+}
+.head_box .inner {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+}
+.head_box .inner h1 {
+  float: left;
+}
+.head_box .inner h1 img {
+  width: 140px;
+  height: 50px;
+  margin-top: 4px;
+}
+.head_box .inner ul {
+  width: 575px;
+  height: 60px;
+  float: right;
+}
+.head_box .inner ul .first {
+  font-size: 18px;
+  display: inline-block;
+  padding: 0 10px;
+  height: 60px;
+  background: #b81d00;
+  color: #fff;
+  text-align: center;
+  margin-right: 35px;
+}
+.head_box .inner ul li {
+  float: left;
+  margin-left: 10px;
+  line-height: 60px;
+}
+.head_box .inner ul li span {
+  margin-left: 7px;
+  color: #E0E0E0;
+}
+.course_ban {
+  height: 320px;
+  background: url(../images/bg.png) no-repeat center top;
+}
+.course_ban .inner {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+.course_ban .inner h2 {
+  font-size: 50px;
+  color: #31D6D4;
+  line-height: 100px;
+  border-bottom: 2px solid #31D6D4;
+  display: inline-block;
+  margin-top: 60px;
+  font-weight: bold;
+}
+.course_ban .inner p {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 30px;
+}
+.course_ban .inner p a {
+  background: #31D6D4;
+  line-height: 37px;
+  padding: 0 25px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+}
+.lay {
+  width: 100%;
+  padding: 55px 0;
+}
+.lay .inner {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.lay .inner .lay_con .firstRow span {
+  font-size: 20px;
+  color: #c00000;
+}
+.lay .hd {
+  height: 70px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 70px;
+  margin-bottom: 45px;
+}
+.lay .gdhd p {
+  float: right;
+  width: 1030px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.lay .gdhd span {
+  float: left;
+  width: 140px;
+  font-size: 18px;
+  background: #D72403;
+  line-height: 28px;
+  color: #fff;
+  text-align: center;
+  height: 28px;
+}
+.lay .gdhd .box {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.lay_zx .inner {
+  width: 1020px;
+  border: 2px solid #49D2CC;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.lay_zx .inner strong {
+  font-size: 26px;
+  font-weight: bold;
+}
+.lay_zx .inner p {
+  padding: 50px 0 30px;
+}
+.lay_zx .inner .zx_l {
+  float: left;
+  display: block;
+  width: 510px;
+  height: 195px;
+  background: #49D2CC;
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  overflow: hidden;
+}
+.lay_zx .inner .zx_l span {
+  display: block;
+  width: 245px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  background: #fff;
+  font-size: 20px;
+  color: #333;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+.lay_zx .inner .zx_l:hover {
+  background: #1EB1AF;
+}
+.lay_zx .inner .zx_r {
+  background: #fff;
+}
+.lay_zx .inner .zx_r span {
+  background: #49D2CC;
+}
+.lay_zx .inner .zx_r p {
+  color: #49D2CC;
+}
+.lay_zx .inner .zx_r:hover {
+  background: #1EB1AF;
+}
+.lay_zx .inner .zx_r:hover p {
+  color: white;
+}
+.bm {
+  width: 1020px;
+  margin: 50px  auto;
+}
+.bm .bm_con {
+  height: 150px;
+  width: 938px;
+  margin: 25px auto;
+  overflow: hidden;
+}
+.bm .bm_con .left {
+  width: 720px;
+  height: 150px;
+  float: left;
+}
+.bm .bm_con .left li {
+  float: left;
+}
+.bm .bm_con .left .l_text {
+  float: left;
+  font-size: 18px;
+  color: #666;
+  padding-right: 15px;
+  line-height: 40px;
+}
+.bm .bm_con .left input {
+  float: left;
+  width: 211px;
+  padding: 10px 0;
+  border: 1px solid #c9c9c9;
+  border-radius: 3px;
+  padding-left: 10px;
+  box-shadow: inset 1px 2px 3px #f1f1f1;
+  margin-top: 2px;
+}
+.bm .bm_con .left i {
+  color: #e00000;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 41px;
+  padding-right: 9px;
+}
+.bm .bm_con .right {
+  width: 218px;
+  float: left;
+}
+.bm .bm_con .right input {
+  display: block;
+  width: 216px;
+  height: 36px;
+  color: #fff;
+  font-size: 16px;
+  background: #4492dc;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.bm .bm_con .right p {
+  font-size: 12px;
+  color: #666;
+  margin-top: 30px;
+}
+.lay_service {
+  margin-top: 30px;
+  background: #F4F4F4;
+}
+.lay_service .inner {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.lay_service .hd {
+  height: 70px;
+  font-size: 32px;
+  text-align: center;
+  line-height: 70px;
+  margin-bottom: 45px;
+}
+.lay_service ul {
+  width: 1250px;
+  overflow: hidden;
+}
+.lay_service ul div {
+  transition: 1s;
+}
+.lay_service ul li {
+  float: left;
+  width: 390px;
+  height: 220px;
+  margin: 0 15px 15px 0;
+  overflow: hidden;
+  border-radius: 7px;
+}
+.lay_service ul li .front {
+  background: #CCC9C4;
+  width: 390px;
+  height: 220px;
+  overflow: hidden;
+}
+.lay_service ul li .front img {
+  float: left;
+  margin: 50px 0 0 70px;
+  display: block;
+}
+.lay_service ul li .front span {
+  float: left;
+  padding-left: 25px;
+  font-size: 24px;
+  line-height: 220px;
+  color: #fff;
+}
+.lay_service ul li .back {
+  border: 1px solid #565656;
+  width: 388px;
+  height: 218px;
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  top: -220px;
+  opacity: 0;
+  border-radius: 7px;
+}
+.lay_service ul li .back p {
+  padding: 50px 30px 0 30px;
+  line-height: 30px;
+}
+.lay_service ul .li2 .front {
+  background: #B593DF;
+}
+.lay_service ul .li3 .front {
+  background: #BED757;
+}
+.lay_service ul .li4 .front {
+  background: #7397D0;
+}
+.lay_service ul .li5 .front {
+  background: #91ADBD;
+}
+.lay_service ul .li6 .front {
+  background: #EEE4BF;
+}
+.lay_service ul .li1:hover .back {
+  opacity: 1;
+  cursor: pointer;
+}
+.lay_service ul .li2:hover .back {
+  opacity: 1;
+  cursor: pointer;
+}
+.lay_service ul .li3:hover .back {
+  opacity: 1;
+  cursor: pointer;
+}
+.lay_service ul .li4:hover .back {
+  opacity: 1;
+  cursor: pointer;
+}
+.lay_service ul .li5:hover .back {
+  opacity: 1;
+  cursor: pointer;
+}
+.lay_service ul .li6:hover .back {
+  opacity: 1;
+  cursor: pointer;
+}

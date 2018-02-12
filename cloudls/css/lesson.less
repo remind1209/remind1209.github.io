@@ -1,0 +1,523 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,strong,b{
+  font-weight:normal;
+}
+a{
+  text-decoration: none;
+}
+a:hover{color:red}
+.lay {
+  width: 100%;
+  padding: 55px 0;
+  .inner {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .hd {
+    height: 70px;
+    background: url(../images/course_hd.png) no-repeat center center;
+    font-size: 32px;
+    text-align: center;
+    line-height: 70px;
+    margin-bottom: 45px;
+  }
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+//头部
+.head_box{
+  .inner{
+    width: 1200px;
+    height: 60px;
+    margin:0 auto;
+    //overflow: hidden;
+    h1{
+      float:left;
+      img{
+        width: 140px;
+        height: 50px;
+        margin-top: 4px;
+      }
+    }
+    ul{
+      width: 592px;
+      height: 60px;
+      float:right;
+      .first{
+        font-size: 18px;
+        display: inline-block;
+        padding: 0 10px;
+        height: 60px;
+        background: #b81d00;
+        color: #fff;
+        text-align: center;
+        margin-right: 35px;
+      }
+      li{
+        float:left;
+        margin-left: 10px;
+        line-height: 60px;
+        span{
+          margin-left: 7px;
+          color:#E0E0E0;
+        }
+      }
+    }
+  }
+}
+//图片
+.course_ban{
+  height: 320px;
+  background: url(../images/bg.png) no-repeat center top;
+  .inner{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    h2{
+      font-size: 50px;
+      color: #31D6D4;
+      line-height: 100px;
+      border-bottom: 2px solid #31D6D4;
+      display: inline-block;
+      margin-top: 60px;
+      font-weight: bold;
+    }
+    p{
+      font-size: 24px;
+      color: #fff;
+      margin-top: 30px;
+      a {
+        background: #31D6D4;
+        line-height: 37px;
+        padding: 0 25px;
+        display: inline-block;
+        color: #fff;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+//电商大数据课程大纲
+.lay_lj {
+  background: #F4F4F4;
+  ul {
+    margin-left: 43px;
+    border-left: 3px solid #D72403;
+    li {
+      position: relative;
+      padding-left: 70px;
+      margin-bottom: 10px;
+      .dot {
+        display: block;
+        width: 22px;
+        height: 22px;
+        background: #D72403;
+        position: absolute;
+        left: -16px;
+        top: 50%;
+        margin-top: -12px;
+        border-radius: 50%;
+        border: 3px solid #F4F4F4;
+      }
+      .txt {
+        background: #fff;
+        padding: 25px 40px;
+        border-radius: 7px;
+        position: relative;
+        transition:1s;
+      }
+      .txt:hover p{
+        transform:translateY(-5px);
+      }
+      .txt:hover  h3{
+        transform:translateY(-5px);
+      }
+      .txt:after   {
+        content: '';
+        position: absolute;
+        top: 50%;
+        margin-top: -10px;
+        left: -20px;
+        width: 0;
+        height: 0;
+        border-right: 20px solid #fff;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+      }
+      h3 {
+        color: #D72403;
+        font-size: 24px;
+        padding-bottom: 10px;
+        position: relative;
+        transition:0.6s;
+        top: 0;
+      }
+      p {
+        transition:0.6s;
+        line-height: 20px;
+        position: relative;
+        top: 0;
+      }
+    }
+  }
+
+}
+//电商大数据基础班课程大纲 & 就业大纲
+.lay_dg .gdhd{
+  .box {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+  span {
+    float: left;
+    width: 140px;
+    font-size: 18px;
+    background: #D72403;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+    height: 28px;
+  }
+  p {
+    float: right;
+    width: 1030px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+}
+.lay_con{
+  table {
+    color: #666;
+    border-color: #666;
+    td {
+      text-indent: 10px;
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+}
+
+//通用咨询
+.lay_zx .inner {
+  width: 1020px;
+  border: 2px solid #49D2CC;
+  margin: 0 auto;
+  overflow: hidden;
+  strong{
+    font-size: 26px;
+    font-weight: bold;
+  }
+  p{
+    padding: 50px 0 30px;
+  }
+  .zx_l {
+    float: left;
+    display: block;
+    width: 510px;
+    height: 195px;
+    background: #49D2CC;
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    overflow: hidden;
+    span {
+      display: block;
+      width: 245px;
+      height: 46px;
+      line-height: 46px;
+      text-align: center;
+      background: #fff;
+      font-size: 20px;
+      color: #333;
+      margin: 0 auto;
+      border-radius: 7px;
+    }
+  }
+  .zx_l:hover{
+    background:#1EB1AF;
+  }
+  .zx_r {
+    background: #fff;
+    span{ background: #49D2CC;}
+    p{color: #49D2CC;}
+  }
+  .zx_r:hover{
+    background:#1EB1AF;
+  }
+  .zx_r:hover p{
+    color:white;
+  }
+}
+.bm {
+  width: 1020px;
+  margin: 50px  auto;
+  .bm_con{
+    height: 150px;
+    width: 938px;
+    margin: 25px auto;
+    overflow: hidden;
+    .left{
+      width: 720px;
+      height: 150px;
+      float: left;
+      li{
+        float:left;
+      }
+      .l_text {
+        float: left;
+        font-size: 18px;
+        color: #666;
+        padding-right: 15px;
+        line-height: 40px;
+      }
+      input{
+        float: left;
+        width: 211px;
+        padding: 10px 0;
+        border: 1px solid #c9c9c9;
+        border-radius: 3px;
+        padding-left: 10px;
+        box-shadow: inset 1px 2px 3px #f1f1f1;
+        margin-top: 2px;
+      }
+
+      i{
+        color:#e00000;
+        font-size:15px;
+        text-decoration:none;
+        line-height:41px;
+        padding-right:9px
+      }
+
+
+    }
+    .right {
+      width: 218px;
+      float: left;
+      input {
+        display: block;
+        width: 216px;
+        height: 36px;
+        color: #fff;
+        font-size: 16px;
+        background: #4492dc;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+      }
+      p {
+        font-size: 12px;
+        color: #666;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+//电商大数据学科项目介绍
+.lay_js {
+  background: #F4F4F4;
+  .lay_con {
+    border-radius: 7px;
+    overflow: hidden;
+  }
+}
+.slideBox {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+  .bd {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+    .txt {
+      width: 540px;
+      height: 400px;
+      float: left;
+      padding: 0 30px;
+      overflow: auto;
+      .phd {
+        padding-bottom: 11px;
+        border-bottom: 1px solid #333;
+        margin: 20px 0 8px 0;
+        p {
+          font-size: 20px;
+          height: 20px;
+          line-height: 20px;
+          border-left: 3px solid #D72403;
+          padding-left: 7px;
+        }
+      }
+      h4 {
+        font-size: 28px;
+        padding: 26px 12px 0 0;
+        display: block;
+      }
+      p {
+        line-height: 22px;
+      }
+    }
+    img {
+      width: 600px;
+      height: 400px;
+      float: left;
+    }
+    li {
+      zoom: 1;
+      vertical-align: middle;
+      width: 100%;
+    }
+  }
+  .bb {
+    bottom: 135px;
+    height: 50px;
+    padding-left: 0;
+    margin-left: -365px;
+    display: none;
+  }
+  .prev,  .next {
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    display: block;
+    opacity: 0.5;
+    border-radius: 3px;
+  }
+  .prev{left:0;}
+  .next{right:0;}
+}
+.slideBox:hover .bb{
+   display:block
+}
+.slide_xm {
+  width: 1200px;
+  height: 400px;
+  background: #fff;
+
+  .bd {
+    overflow: hidden;
+  }
+  .prev {
+    background: url(../images/left.png) no-repeat;
+    width: 30px;
+    height: 60px;
+  }
+  .next {
+    background: url(../images/right.png) no-repeat;
+    width: 30px;
+    height: 60px;
+  }
+}
+//教学服务
+.lay_service {
+  background: #F4F4F4;
+ .inner{
+   width: 1200px;
+   margin: 0 auto;
+   overflow: hidden;
+ }
+  .hd {
+    height: 70px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 70px;
+    margin-bottom: 45px;
+  }
+  ul {
+    width: 1250px;
+    overflow: hidden;
+    div{
+      transition:1s;
+    }
+    li {
+      float: left;
+      width: 390px;
+      height: 220px;
+      margin: 0 15px 15px 0;
+      overflow: hidden;
+      border-radius: 7px;
+
+      .front {
+        background: #CCC9C4;
+        width: 390px;
+        height: 220px;
+        overflow: hidden;
+        img {
+          float: left;
+          margin: 50px 0 0 70px;
+          display: block;
+        }
+        span {
+          float: left;
+          padding-left: 25px;
+          font-size: 24px;
+          line-height: 220px;
+          color: #fff;
+        }
+      }
+      .back {
+        border: 1px solid #565656;
+        width: 388px;
+        height: 218px;
+        background: #fff;
+        overflow: hidden;
+        position: relative;
+        top: -220px;
+        opacity:0;
+        border-radius: 7px;
+        p {
+          padding: 50px 30px 0 30px;
+          line-height: 30px;
+        }
+
+      }
+    }
+    .li2 .front {
+      background: #B593DF;
+    }
+    .li3 .front {
+      background: #BED757;
+    }
+    .li4 .front {
+      background: #7397D0;
+    }
+    .li5 .front {
+      background: #91ADBD;
+    }
+    .li6 .front {
+      background: #EEE4BF;
+    }
+    .li1:hover .back{opacity:1; cursor:pointer; }
+    .li2:hover .back{opacity:1; cursor:pointer; }
+    .li3:hover .back{opacity:1; cursor:pointer; }
+    .li4:hover .back{opacity:1; cursor:pointer; }
+    .li5:hover .back{opacity:1; cursor:pointer; }
+    .li6:hover .back{opacity:1; cursor:pointer; }
+
+  }
+
+}
+
+
