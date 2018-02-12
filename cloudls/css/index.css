@@ -1327,6 +1327,10 @@ a {
 }
 .box11 .bm .bm_con .left {
   width: 720px;
+  height: 150px;
+  float: left;
+}
+.box11 .bm .bm_con .left li {
   float: left;
 }
 .box11 .bm .bm_con .left .l_text {
@@ -1346,29 +1350,12 @@ a {
   box-shadow: inset 1px 2px 3px #f1f1f1;
   margin-top: 2px;
 }
-.box11 .bm .bm_con .left select {
-  float: left;
-}
 .box11 .bm .bm_con .left i {
   color: #e00000;
   font-size: 15px;
   text-decoration: none;
   line-height: 41px;
   padding-right: 9px;
-}
-.box11 .bm .bm_con .left .l_address,
-.box11 .bm .bm_con .left q {
-  position: relative;
-  top: 20px;
-}
-.box11 .bm .bm_con .left .l_qq {
-  position: relative;
-  top: 20px;
-  left: 20px;
-}
-.box11 .bm .bm_con .left .l_phone,
-.box11 .bm .bm_con .left .l_qq {
-  margin-left: 20px;
 }
 .box11 .bm .bm_con .right {
   width: 218px;
